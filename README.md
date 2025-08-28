@@ -1,11 +1,13 @@
 # Todo App - React Native + TypeScript + AsyncStorage
 
-A lightweight offline Todo application built with React Native, TypeScript, and AsyncStorage using Expo. It allows users to add, mark as done, and delete tasks, with data persistence between sessions.
+A lightweight offline Todo application built with React Native, TypeScript, and AsyncStorage using Expo. It allows users to add, mark as done, search, modify and delete tasks, with data persistence between sessions.
 
 ## Features
 
 - Add new tasks
-- Mark tasks as done / undone
+- Mark tasks as done / undone by a simple tap
+- Modify tasks and save changes
+- Search tasks
 - Delete tasks
 - Offline storage with AsyncStorage
 - Simple, responsive UI
@@ -26,4 +28,5 @@ A lightweight offline Todo application built with React Native, TypeScript, and 
    npx expo start
    ```
 4. Open the app:
-   Scan the QR code with Expo Go on your phone
+   
+   Scan the QR code with Expo Go on your phone, enjoy the app!
